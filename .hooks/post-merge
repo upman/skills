@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SKILLS_DIR="$HOME/.claude/skills"
+REPO_DIR="$(git rev-parse --show-toplevel)"
+
+mkdir -p "$SKILLS_DIR"
+
+# Copy all non-hidden files and directories from the repo to ~/.claude/skills
+find "$REPO_DIR" -mindepth 1 -maxdepth 1 \
+  ! -name '.*' \
+  -exec cp -r {} "$SKILLS_DIR/" \;
+
+echo "Skills synced to $SKILLS_DIR"
