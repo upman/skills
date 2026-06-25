@@ -1,4 +1,4 @@
 interface:
   display_name: "Simple Diagrams"
   short_description: "Create clear block and sequence diagrams"
-  default_prompt: "Use $simple-diagrams to create a clean block or sequence diagram for this system."
+  default_prompt: "Use the simple-diagrams skill to create a clean block or sequence diagram for this system."

@@ -1,6 +1,6 @@
 ---
 name: simple-diagrams
-description: Create simple, legible block diagrams and sequence diagrams in HTML, SVG, Mermaid, or similar lightweight formats. Use when Codex needs to explain system architecture, request flows, fanout paths, deployment topology, data movement, trace/media upload paths, or any workflow where boxes, arrows, labels, and ordering must be visually clear.
+description: Create simple, legible block diagrams and sequence diagrams in HTML, SVG, Mermaid, or similar lightweight formats. Use when an agent needs to explain system architecture, request flows, fanout paths, deployment topology, data movement, trace/media upload paths, or any workflow where boxes, arrows, labels, and ordering must be visually clear.
 ---
 
 # Simple Diagrams
