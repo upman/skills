@@ -20,6 +20,10 @@ description: Create simple, legible block diagrams and sequence diagrams in HTML
 
 5. Confirm facts before committing them to the diagram. Read the relevant code, docs, configs, traces, logs, or user-provided source material; if a fact cannot be verified, mark it as an assumption or leave it out.
 
+## Bundled Examples
+
+- For a concrete fanout/demultiplexing pattern with central and tenant export paths, read [examples/shareable-demultiplexing.md](examples/shareable-demultiplexing.md).
+
 ## Layout Rules
 
 - Reserve real gaps between boxes for arrow labels. Do not place labels in gaps narrower than the label text.
