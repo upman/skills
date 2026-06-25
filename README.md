@@ -15,4 +15,4 @@ After that, every `git pull` will copy the latest skills to `~/.claude/skills` a
 
 ## How it works
 
-The `.hooks/post-merge` hook runs after each successful `git pull` (merge) and copies all non-hidden files from the repository root into `~/.claude/skills/`, creating the directory if it does not exist.
+The `.hooks/post-merge` hook runs after each successful `git pull` (merge) and copies all non-hidden files and directories from the repository root into `~/.claude/skills/`, creating the directory if it does not exist.
